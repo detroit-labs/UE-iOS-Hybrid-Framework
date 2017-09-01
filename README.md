@@ -6,5 +6,8 @@ This is the example Framework project for a series of blog posts about how to bu
 * Unreal Engine 0.17.1
 * Xcode 9 beta 6
 
+### Unreal Engine Project Repo
+[UE-iOS-Hybrid](https://github.com/detroit-labs/UE-iOS-Hybrid)
+
 ### Questions?
 See the blog posts or reach out to [@nate_west](https://www.twitter.com/nate_west).
