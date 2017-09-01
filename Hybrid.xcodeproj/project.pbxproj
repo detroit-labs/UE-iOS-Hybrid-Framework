@@ -27,6 +27,14 @@
 		E728C63B1F59A70900E3A024 /* Hybrid.h in Headers */ = {isa = PBXBuildFile; fileRef = E728C6311F59A62800E3A024 /* Hybrid.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E728C6461F59AAE000E3A024 /* HybridViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E728C6441F59AAE000E3A024 /* HybridViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E728C6471F59AAE000E3A024 /* HybridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E728C6451F59AAE000E3A024 /* HybridViewController.m */; };
+		E7ACE4071F59AE9800E6BFC6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E7ACE4061F59AE9800E6BFC6 /* AppDelegate.m */; };
+		E7ACE40D1F59AE9800E6BFC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7ACE40B1F59AE9800E6BFC6 /* Main.storyboard */; };
+		E7ACE4121F59AE9800E6BFC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7ACE4101F59AE9800E6BFC6 /* LaunchScreen.storyboard */; };
+		E7ACE4151F59AE9800E6BFC6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E7ACE4141F59AE9800E6BFC6 /* main.m */; };
+		E7ACE41B1F59AEC600E6BFC6 /* Hybrid.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E7ACE3F71F59ACCD00E6BFC6 /* Hybrid.bundle */; };
+		E7ACE41C1F59AF3100E6BFC6 /* HybridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E728C6451F59AAE000E3A024 /* HybridViewController.m */; };
+		E7ACE41D1F59AF9A00E6BFC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7ACE40B1F59AE9800E6BFC6 /* Main.storyboard */; };
+		E7ACE41E1F59AF9A00E6BFC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7ACE40E1F59AE9800E6BFC6 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +46,13 @@
 			remoteInfo = Hybrid;
 		};
 		E7ACE3FD1F59AD3100E6BFC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E728C6261F59A62800E3A024 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7ACE3F61F59ACCD00E6BFC6;
+			remoteInfo = HybridBundle;
+		};
+		E7ACE4191F59AEAA00E6BFC6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E728C6261F59A62800E3A024 /* Project object */;
 			proxyType = 1;
@@ -67,6 +82,14 @@
 		E728C64E1F59ABE400E3A024 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E7ACE3F71F59ACCD00E6BFC6 /* Hybrid.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Hybrid.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7ACE3F91F59ACCD00E6BFC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7ACE4031F59AE9800E6BFC6 /* HybridApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HybridApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7ACE4051F59AE9800E6BFC6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E7ACE4061F59AE9800E6BFC6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E7ACE40C1F59AE9800E6BFC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E7ACE40E1F59AE9800E6BFC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E7ACE4111F59AE9800E6BFC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E7ACE4131F59AE9800E6BFC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7ACE4141F59AE9800E6BFC6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +107,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E7ACE4001F59AE9800E6BFC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -93,6 +123,7 @@
 				E728C6301F59A62800E3A024 /* Hybrid */,
 				E728C64D1F59ABE400E3A024 /* HybridResources */,
 				E7ACE3F81F59ACCD00E6BFC6 /* HybridBundle */,
+				E7ACE4041F59AE9800E6BFC6 /* HybridApp */,
 				E728C62F1F59A62800E3A024 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -102,6 +133,7 @@
 			children = (
 				E728C62E1F59A62800E3A024 /* libHybrid.a */,
 				E7ACE3F71F59ACCD00E6BFC6 /* Hybrid.bundle */,
+				E7ACE4031F59AE9800E6BFC6 /* HybridApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -130,6 +162,20 @@
 				E7ACE3F91F59ACCD00E6BFC6 /* Info.plist */,
 			);
 			path = HybridBundle;
+			sourceTree = "<group>";
+		};
+		E7ACE4041F59AE9800E6BFC6 /* HybridApp */ = {
+			isa = PBXGroup;
+			children = (
+				E7ACE4051F59AE9800E6BFC6 /* AppDelegate.h */,
+				E7ACE4061F59AE9800E6BFC6 /* AppDelegate.m */,
+				E7ACE40B1F59AE9800E6BFC6 /* Main.storyboard */,
+				E7ACE40E1F59AE9800E6BFC6 /* Assets.xcassets */,
+				E7ACE4101F59AE9800E6BFC6 /* LaunchScreen.storyboard */,
+				E7ACE4131F59AE9800E6BFC6 /* Info.plist */,
+				E7ACE4141F59AE9800E6BFC6 /* main.m */,
+			);
+			path = HybridApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,6 +229,24 @@
 			productReference = E7ACE3F71F59ACCD00E6BFC6 /* Hybrid.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
+		E7ACE4021F59AE9800E6BFC6 /* HybridApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7ACE4181F59AE9800E6BFC6 /* Build configuration list for PBXNativeTarget "HybridApp" */;
+			buildPhases = (
+				E7ACE3FF1F59AE9800E6BFC6 /* Sources */,
+				E7ACE4001F59AE9800E6BFC6 /* Frameworks */,
+				E7ACE4011F59AE9800E6BFC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7ACE41A1F59AEAA00E6BFC6 /* PBXTargetDependency */,
+			);
+			name = HybridApp;
+			productName = HybridApp;
+			productReference = E7ACE4031F59AE9800E6BFC6 /* HybridApp.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -204,6 +268,10 @@
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
 					};
+					E7ACE4021F59AE9800E6BFC6 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = E728C6291F59A62800E3A024 /* Build configuration list for PBXProject "Hybrid" */;
@@ -212,6 +280,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = E728C6251F59A62800E3A024;
 			productRefGroup = E728C62F1F59A62800E3A024 /* Products */;
@@ -221,6 +290,7 @@
 				E728C62D1F59A62800E3A024 /* Hybrid */,
 				E728C63D1F59A9FA00E3A024 /* Framework */,
 				E7ACE3F61F59ACCD00E6BFC6 /* HybridBundle */,
+				E7ACE4021F59AE9800E6BFC6 /* HybridApp */,
 			);
 		};
 /* End PBXProject section */
@@ -230,6 +300,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7ACE41D1F59AF9A00E6BFC6 /* Main.storyboard in Resources */,
+				E7ACE41E1F59AF9A00E6BFC6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7ACE4011F59AE9800E6BFC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7ACE41B1F59AEC600E6BFC6 /* Hybrid.bundle in Resources */,
+				E7ACE4121F59AE9800E6BFC6 /* LaunchScreen.storyboard in Resources */,
+				E7ACE40D1F59AE9800E6BFC6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +363,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E7ACE3FF1F59AE9800E6BFC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7ACE41C1F59AF3100E6BFC6 /* HybridViewController.m in Sources */,
+				E7ACE4151F59AE9800E6BFC6 /* main.m in Sources */,
+				E7ACE4071F59AE9800E6BFC6 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -294,7 +386,31 @@
 			target = E7ACE3F61F59ACCD00E6BFC6 /* HybridBundle */;
 			targetProxy = E7ACE3FD1F59AD3100E6BFC6 /* PBXContainerItemProxy */;
 		};
+		E7ACE41A1F59AEAA00E6BFC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7ACE3F61F59ACCD00E6BFC6 /* HybridBundle */;
+			targetProxy = E7ACE4191F59AEAA00E6BFC6 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E7ACE40B1F59AE9800E6BFC6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7ACE40C1F59AE9800E6BFC6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E7ACE4101F59AE9800E6BFC6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7ACE4111F59AE9800E6BFC6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		E728C6351F59A62800E3A024 /* Debug */ = {
@@ -484,6 +600,35 @@
 			};
 			name = Release;
 		};
+		E7ACE4161F59AE9800E6BFC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2Z262HL3RX;
+				INFOPLIST_FILE = HybridApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.detroitlabs.HybridApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E7ACE4171F59AE9800E6BFC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2Z262HL3RX;
+				INFOPLIST_FILE = HybridApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.detroitlabs.HybridApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -519,6 +664,15 @@
 			buildConfigurations = (
 				E7ACE3FB1F59ACCD00E6BFC6 /* Debug */,
 				E7ACE3FC1F59ACCD00E6BFC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7ACE4181F59AE9800E6BFC6 /* Build configuration list for PBXNativeTarget "HybridApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7ACE4161F59AE9800E6BFC6 /* Debug */,
+				E7ACE4171F59AE9800E6BFC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
